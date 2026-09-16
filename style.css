@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #080808;
     color: white;
@@ -79,4 +80,87 @@ h2 {
 a {
     color: #ff3a3a;
     gap: 10px;
+=======
+body {
+    background-color: #080808;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-right: 120px; 
+    
+    text-align: left; 
+
+    background-image:
+        linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+
+    background-size: 35px 45px;
+}
+
+.pfp {
+    width: 120px;
+    border: 2px solid #00e5ff;
+    transform: rotate(-4deg);
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.4);
+}
+
+h1 {
+    font-size: 75px;
+    margin: 35px 0 5px;
+    color: #ffffff;
+    text-shadow: 0 0 12px rgba(0, 229, 255, 0.5);
+}
+
+.subtitle {
+    color: #9295a5;
+    font-size: 16px;
+}
+
+h2 {
+    color: #00e5ff;
+    margin-top: 55px;
+    font-size: 28px;
+}
+
+.about {
+    background-color: #111018;
+    border: 1px solid #292735;
+    padding: 20px;
+    width: 550px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+.interests {
+    display: flex;
+    gap: 15px;
+}
+
+.interest {
+    background-color: #111018;
+    border: 1px solid #292735;
+    padding: 18px;
+    width: 180px;
+    box-sizing: border-box;
+}
+
+.interest h3 {
+    color: white;
+    margin-top: 0;
+}
+
+.interest p {
+    color: #9295a5;
+    margin-bottom: 0;
+}
+
+a {
+    color: #ff3a3a;
+    gap: 10px;
+>>>>>>> 038d5ff22a17dcaef9652f6b90c948546ca4a054
 }
